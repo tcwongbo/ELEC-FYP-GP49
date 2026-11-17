@@ -34,7 +34,7 @@ begin
         imm = {instruc[31:12],12'b0};
         end
         
-        default: imm = 0;  
+        default: imm = 32'd0;  
     endcase
 end            
 endmodule
